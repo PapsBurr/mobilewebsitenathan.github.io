@@ -1,0 +1,155 @@
+html {
+  font-size: 32px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #e7fafd;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif;
+  margin: auto;
+  padding-bottom: 6.74rem;
+  min-height: 100%;
+  box-sizing: inherit;
+}
+
+p {
+  font-size: 32px;
+  margin: 20px 200px; 
+}
+
+li {
+  margin: 20px 200px;
+}
+
+nav #navLinks {
+  display: none;
+  flex-flow: column;
+  height: 100%;
+  flex: 0 1 auto;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  text-align: right;
+}
+
+nav #cover-box {
+  flex: 1 1 auto;
+  opacity: 50%;
+  background-color: black;
+}
+
+nav div a {
+  color: black;
+  background-color: lightgray;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#z1 {
+  z-index: 1;
+}
+
+header {
+  text-align: center;
+  padding-top: 100px;
+}
+
+header div {
+  height: 0px;
+}
+
+header div a {
+  display: block;
+  height: 0px;
+}
+
+footer {
+  position: absolute;
+  height: 200px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: rgb(255, 236, 61);
+}
+
+#hamburger {
+  display: block;
+  position: fixed;
+  left: 10px;
+  top: 5px;
+  width: 70px;
+  background-color: #e7fafd;
+  padding: 7px;
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.comment {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.header-logo {
+  position: relative;
+  display: block;
+  left: 70px;
+  top: 30px;
+  width: 7%;
+  z-index: 1;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 70px;
+  bottom: 70px;
+  width: 5%;
+}
+
+.grid-container {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 20% 20% 20%;
+  gap: 40px;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: lightgray;
+  border: solid grey 3px;
+  border-radius: 10px;
+}
+
+a:hover {
+  cursor: pointer;
+}
